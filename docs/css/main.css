@@ -1,0 +1,70 @@
+@import "http://fonts.fontstorage.com/import/opensans.css";
+
+body {
+	font-family: 'Open Sans';
+	margin: 0;
+	padding: 0;
+	color: #717d89;
+	font-size: 16px;
+	background-color: #FFF;
+	text-align: center; /* Выравнивание текста по центру  */ 
+	padding-top: 45px;
+	padding-bottom: 95px;
+}
+
+/* Для логотипа */
+.logo {
+	margin-bottom: 70px;
+}
+
+/* Заголовок */
+.heading {
+	color: #292929;
+	font-size: 48px;
+	font-weight: 300;
+	line-height: 46px;
+}
+
+/* Текст описание */
+.description {
+color: #717d89;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+width: 420px;
+margin: 0 auto;
+margin-bottom: 35px;
+} 
+
+/* Ноутбук */
+.laptop {
+	width: 580px;
+	height: 380px;
+	margin-top: 0;
+	margin-bottom:10px;
+}
+
+/* Кнопка */
+a {
+	color: #000000;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3.2px;
+	text-decoration: none;
+	line-height: 52px;
+}
+
+.button {
+	width: 241px;
+	height: 52px;
+	border-radius: 26px;
+	background-color: #ffc80a;
+	border: 1px solid #ffc80a;
+	margin: 0 auto;
+	}
+	.button:hover {
+		transition: 0.2s ease-in;
+		background-color: #fff;
+		height: 50px;
+	}
